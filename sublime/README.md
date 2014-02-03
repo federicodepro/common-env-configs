@@ -38,7 +38,7 @@ Certain files and folders in the Packages/User/ folder change regularly, so you 
 * Package Control.cache/
 * Package Control.ca-certs/
 
-### On the first Machine
+#### On the first Machine
 Using git you have to move the `User` folder to you config repo, and then symlink the versioned `User` folder to yout '/Pachages`folder.
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/
@@ -46,7 +46,7 @@ Using git you have to move the `User` folder to you config repo, and then symlin
     mv User ~/repo/path/common-env-configs/sublime
     ln -s ~/repo/path/common-env-configs/sublime/User
 
-### On other Machine(s)
+#### On other Machine(s)
 ***Note:*** These instructions will remove your User/ folder and all contents!
 
     cd ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/

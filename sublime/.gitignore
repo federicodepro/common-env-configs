@@ -5,6 +5,5 @@
 ./User/*.ca-list
 ./User/*.ca-bundle
 ./User/*.system-ca-bundle
-./User/*.cache/
-./User/*.ca-certs/
-
+*.ca-certs/
+*.cache/
