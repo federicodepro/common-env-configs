@@ -1,0 +1,10 @@
+## .gitignore for Sublime Text 3
+
+# Package Control Files
+./User/*.last-run
+./User/*.ca-list
+./User/*.ca-bundle
+./User/*.system-ca-bundle
+./User/*.cache/
+./User/*.ca-certs/
+
