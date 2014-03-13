@@ -1,8 +1,8 @@
-/* 
+/*
 
 MavensMate settings
 NOTE: MavensMate user settings will override MavensMate default settings
-To override default MavensMate settings, modify user-specific settings (MavensMate --> Open --> Settings - User) 
+To override default MavensMate settings, modify user-specific settings (MavensMate --> Open --> Settings - User)
 ** Most changes require a SublimeText restart **
 */
 
@@ -10,7 +10,7 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 	//set to absolute location where you wish your MavensMate project to reside
 	//if the location does not exist, MavensMate will attempt to create it
 	//for example: "/Users/username/Documents/workspaces/mavensmate" (notice the absolute path)
-	"mm_workspace" : "/Users/federicodepro/Desktop",
+	"mm_workspace" : "/Users/federicodepro/Documents/ML-CBK/Desarrollo/salesforce",
 
 	//set to desired Salesforce.com API version (tooling api functionality requires 27.0+)
 	"mm_api_version" : "28.0",
@@ -21,7 +21,7 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 	//the amount of time (in seconds) before MavensMate hides the debug panel upon a successful operation
 	"mm_hide_panel_time" : 0,
 
-	//if true, MavensMate will capture the save file operation and compile to the Salesforce.com server automatically 
+	//if true, MavensMate will capture the save file operation and compile to the Salesforce.com server automatically
 	"mm_compile_on_save" : true,
 
 	//if true, MavensMate will check if the lastmodifiedbyid of apex metadata is different than running user
@@ -85,7 +85,7 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 		".layout",
 		".resource",
 		".remoteSite",
-		".labels", 
+		".labels",
 		".app",
 		".dashboard",
 		".permissionset",
@@ -118,7 +118,7 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 	],
 
 	"mm_default_apex_templates_map" : {
-        "ApexClass"     : 
+        "ApexClass"     :
 	        {
 	            "test"          : "UnitTestApexClass.html",
 	            "exception"     : "ExceptionApexClass.html",
@@ -130,15 +130,15 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 	            "empty"         : "ApexClassNoConstructor.html",
 	            "default"       : "ApexClass.html"
 	        },
-        "ApexTrigger"   : 
+        "ApexTrigger"   :
 	        {
 	            "default"       : "ApexTrigger.html"
 	        },
-        "ApexComponent" :  
+        "ApexComponent" :
 	        {
 	            "default"       : "ApexComponent.html"
 	        },
-        "ApexPage"      : 
+        "ApexPage"      :
 	        {
 	            "default"       : "ApexPage.html"
 	        }
@@ -170,5 +170,5 @@ To override default MavensMate settings, modify user-specific settings (MavensMa
 	//choices: "metadata" or "apex". "metadata" is recommended, however if your tests are taking forever to run, try switching to "apex"
 	//we're working on async testing api support in 0.36
 	"mm_test_api" : "metadata"
-	
+
 }
