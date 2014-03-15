@@ -1,9 +1,9 @@
 ## .gitignore for Sublime Text 3
 
 # Package Control Files
-./User/*.last-run
-./User/*.ca-list
-./User/*.ca-bundle
-./User/*.system-ca-bundle
+*.last-run
+*.ca-list
+*.ca-bundle
+*.system-ca-bundle
 *.ca-certs/
 *.cache/
