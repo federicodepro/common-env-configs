@@ -1,0 +1,43 @@
+{
+	"history":
+	[
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "F G H I J K L M N O P Q R S T U",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "F G H I J K L M N O P Q R S T U"
+			},
+			"key": "1ceffc7fc81a7725ed43730f94555f45",
+			"label": "F G H I J K L M N O P Q R S T U"
+		},
+		{
+			"data":
+			{
+				"args":
+				{
+					"text": "F F G G H H I I J J K K L L M M N N O O P P Q Q R R S S T T U U",
+					"threshold": 3
+				},
+				"command": "text_pastry_insert_text",
+				"text": "F F G G H H I I J J K K L L M M N N O O P P Q Q R R S S T T U U"
+			},
+			"key": "eb044e3a09c83cc110390295beae38da",
+			"label": "F F G G H H I I J J K K L L M M N N O O P P Q Q R R S S T T U U"
+		}
+	],
+	"last_command":
+	{
+		"args":
+		{
+			"text": "F F G G H H I I J J K K L L M M N N O O P P Q Q R R S S T T U U",
+			"threshold": 3
+		},
+		"command": "text_pastry_insert_text",
+		"text": "F F G G H H I I J J K K L L M M N N O O P P Q Q R R S S T T U U"
+	}
+}
