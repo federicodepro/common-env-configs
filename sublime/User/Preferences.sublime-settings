@@ -1,10 +1,10 @@
 {
-	"color_scheme": "Packages/Color Scheme - Default/Monokai.tmTheme",
+	"color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown Preview"
+		"Markdown Preview",
+		"Vintage"
 	],
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true

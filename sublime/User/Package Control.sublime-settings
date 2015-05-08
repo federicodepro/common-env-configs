@@ -1,10 +1,18 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Emmet",
 		"GitGutter",
 		"Markdown Preview",
 		"Open Folder",
+		"Package Control",
+		"Pretty JSON",
+		"Quick File Move",
+		"SideBarEnhancements",
+		"SublimeLinter",
 		"Text Pastry",
 		"TrailingSpaces"
 	]

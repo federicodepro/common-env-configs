@@ -7,6 +7,7 @@ export EDITOR='subl -w'
 # Aliases
 alias goto_desa="cd $DESA_DIR"
 alias goto_admin="cd $DESA_DIR/fraud-chargebackjobs/webserver/"
+alias goto_admin_front="cd $DESA_DIR/fraud-chargebacks_admin_frontend/webserver/"
 alias goto_es="cd $DESA_DIR/fraud-chargebackjobs/es/"
 alias goto_api="cd $DESA_DIR/chargebacks-api/webserver/"
 alias goto_frontend="cd $DESA_DIR/chargebacks-frontend/webserver/"
