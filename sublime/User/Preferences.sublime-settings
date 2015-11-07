@@ -3,8 +3,8 @@
 	"font_size": 12,
 	"ignored_packages":
 	[
-		"Vintage",
-		"Markdown Preview"
+		"Markdown Preview",
+		"Vintage"
 	],
 	"translate_tabs_to_spaces": true,
 	"use_tab_stops": true
